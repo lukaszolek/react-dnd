@@ -1,10 +1,11 @@
 {
-  "name": "react-dnd-parent",
+  "name": "react-dnd",
+  "version": "16.0.1",
   "private": true,
   "description": "React-DnD Monorepo",
   "repository": {
     "type": "git",
-    "url": "https://github.com/react-dnd/react-dnd.git"
+    "url": "https://github.com/lukaszolek/react-dnd.git"
   },
   "keywords": [
     "react",
