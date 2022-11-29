@@ -16,7 +16,7 @@ export interface TouchBackendOptions {
 	enableHoverOutsideTarget: boolean
 	delayMouseStart: number
 	touchSlop: number
-	scrollAngleRanges?: AngleRange[] | undefined
+	scrollAngleRanges?: AngleRange[] | Function | undefined
 	rootElement: Node | undefined
 
 	getDropTargetElementsAtPoint?:

@@ -14,7 +14,7 @@ export class OptionsReader implements TouchBackendOptions {
 		return this.args.delay ?? 0
 	}
 
-	public get scrollAngleRanges(): AngleRange[] | undefined {
+	public get scrollAngleRanges(): AngleRange[] | Function | undefined {
 		return this.args.scrollAngleRanges
 	}
 
